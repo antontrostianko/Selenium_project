@@ -16,4 +16,5 @@ class ProductPageLocators:
     PRICE_IN_PRODUCT_CARD = (By.CSS_SELECTOR, '.product_main > p.price_color')
     NAME_IN_MESSAGE = (By.CSS_SELECTOR, '#messages > div:nth-child(1) > div > strong')
     NAME_IN_PRODUCT_CARD = (By.CSS_SELECTOR, '.product_main > h1')
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, '.alert-success')
     
