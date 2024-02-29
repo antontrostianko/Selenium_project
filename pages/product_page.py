@@ -24,6 +24,3 @@ class ProductPage(base_page.BasePage):
 
     def success_message_should_disappear(self):
         assert self.is_disappeared(*ProductPageLocators.SUCCESS_MESSAGE)
-
-
-
